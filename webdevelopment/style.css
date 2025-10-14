@@ -85,3 +85,21 @@ p {
         padding: 0.5em 2em;
         margin-top: 2rem;
     }
+
+    a {
+        color: #ebff00;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #0029ff;
+    }
+
+.box-link {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ff00d9;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 2rem;
+}
