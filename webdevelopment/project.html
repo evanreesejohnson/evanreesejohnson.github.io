@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--
+Name: Evan Johnson
+Date: 
+Page: 
+Description:
+-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artists</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<!--
+This is what how the website know what type of text to use, 
+what styles to use from a css document, what the name of the site is 
+and makes sure it can be used on different sized devices
+-->
+<body>
+    <header>
+        <nav>
+             <img src="logo.png">
+             <input type="checkbox" id="menu-toggle" />
+             <label for="menu-toggle" class="hamburger">☰</label>
+            
+              <div class="mobile-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Artists</a>
+                    <div class="dropdown-content">
+                        <a href="#artist1">drona</a>
+                        <a href="#artist2">Evan Wednesday</a>
+                        <a href="#artist3">yyuan</a>
+                        <a href="#artist4">Ninevolt</a>
+                    </div>
+                    </li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+
+             <ul class="desktop-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Artists</a>
+                    <div class="dropdown-content">
+                        <a href="#artist1">drona</a>
+                        <a href="#artist2">Evan Wednesday</a>
+                        <a href="#artist3">yyuan</a>
+                        <a href="#artist4">Ninevolt</a>
+                    </div>
+                 </li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="d.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+
+<section id="artists">
+    
+    <div class="artist-card" id="artist1">
+        <div class="artist-image">
+            <img src="images/artist1.jpg">
+        </div>
+        <div class="artist-description">
+            <h2>drona</h2>
+            <p>Experimental three piece indie rock</p>
+        </div>
+    </div>
+
+    <div class="artist-card" id="artist2">
+        <div class="artist-image">
+            <img src="images/artist2.jpg">
+        </div>
+        <div class="artist-description">
+            <h2>Evan Wednesday</h2>
+            <p>The graphic design of electronic music</p>
+        </div>
+    </div>
+
+    <div class="artist-card" id="artist3">
+        <div class="artist-image">
+            <img src="images/artist3.jpg">
+        </div>
+        <div class="artist-description">
+            <h2>yyuan</h2>
+            <p>Pushes sonic and cultural boundaries by
+            channeling creativity through music and film.</p>
+        </div>
+    </div>
+
+    <div class="artist-card" id="artist4">
+        <div class="artist-image">
+            <img src="images/artist4.jpg">
+        </div>
+        <div class="artist-description">
+            <h2>Ninevolt</h2>
+            <p>Indie Rock from 314</p>
+        </div>
+    </div>
+
+</section>
+
+    <footer>
+          <div class="contact-info">
+            <div class="contact-item">
+                <img src="phone.png" class="contact-icon">
+                <span>(555) 123-4567</span>
+            </div>
+            <div class="contact-item">
+                <img src="email.png" alt="Email" class="contact-icon">
+                <span>dartclubcomo@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+</body>
+<!--The body section is where the actual website goes. 
+Things like text, images and other interactble parts of a website.
+The h1 is the biggest heading size and the footer is what appears at the bottom of the site-->
+</html>
